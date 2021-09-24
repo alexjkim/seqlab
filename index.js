@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('postgres://hpgmpogv:IqgEUguEvCGrCJoodfjQyt6NA1tI3l5n@kashin.db.elephantsql.com/hpgmpogv');
+const sequelize = new Sequelize('postgres://hpgmpogv:---@kashin.db.elephantsql.com/hpgmpogv');
 
 const Models = require('./models.js')(sequelize,Sequelize);
 
